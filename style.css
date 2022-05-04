@@ -1,0 +1,89 @@
+body {
+    background-color: #F9E4EA;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #424242;
+}
+.nav {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+.nav > li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+.nav a {
+    background: #E84769;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .95rem;
+    height: 2.5em;
+    line-height: 1;
+    padding-top: .85em;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 6em;
+
+}
+.nav a:hover {
+    background-color: #D3C4E3;
+}
+.nav a.active {
+    height: 2.8em;
+    font-size: 1rem;
+    text-decoration: underline;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    margin-top: 2px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2.5em;
+}
+ img {
+    width: 450px;
+    max-width: 95vw;
+ }
+.spacer {
+    height: 40px;
+}
+ .main-title {
+    margin-top: 60px;
+ }
+ .card-body {
+    max-width: 450px;
+    margin: auto;
+    text-align: left;
+ }
+ .caption {
+    margin: 5px 0 5px 0;
+ }
+ .embellishment-1 {
+    position: absolute;
+    z-index: -1;
+    top: -150px;
+    left: -180px;
+ }
+ .embellishment-1 > img {
+    width: 300px;
+ }
+ .relative {
+    position: relative;
+ }
+ .embellishment-2 {
+    position: absolute;
+    z-index: -1;
+    right: -140px;
+    top: 150px;
+ }
+ .embellishment-2 > img {
+    width: 300px;
+ }
+ 
