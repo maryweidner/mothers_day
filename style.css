@@ -36,6 +36,7 @@ body {
     background-color: #D3C4E3;
 }
 .nav a.active {
+    background-color: #D3C4E3;
     height: 2.8em;
     font-size: 1rem;
     text-decoration: underline;
@@ -51,8 +52,17 @@ h1 {
     width: 450px;
     max-width: 95vw;
  }
+ p {
+     line-height: 1.5;
+     font-size: 1.2em;
+     color: #424242;
+ }
 .spacer {
     height: 40px;
+}
+.signature {
+    font-family: cursive;
+    font-size: 1.5em;
 }
  .main-title {
     margin-top: 60px;
@@ -62,6 +72,20 @@ h1 {
     margin: auto;
     text-align: left;
  }
+ .gift-body {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+ }
+ .gift {
+    max-width: 350px;
+    margin: 20px auto 20px auto;
+ }
+.letter-background {
+    background-color: #fefefa;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
  .caption {
     margin: 5px 0 5px 0;
  }
@@ -84,6 +108,15 @@ h1 {
     top: 150px;
  }
  .embellishment-2 > img {
+    width: 300px;
+ }
+ .embellishment-3 {
+    position: absolute;
+    z-index: -1;
+    right: -150px;
+    bottom: -170px;
+ }
+ .embellishment-3 > img {
     width: 300px;
  }
  
