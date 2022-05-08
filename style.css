@@ -82,9 +82,12 @@ h1 {
  .main-title {
     margin-top: 60px;
  }
+ .m5 {
+    margin: 5px;
+ }
  .card-body {
     max-width: 450px;
-    margin: auto 5px auto 5px;
+    margin: auto;
     text-align: left;
  }
  .gift-body {
